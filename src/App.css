@@ -1,0 +1,58 @@
+a:link, a:visited {
+  color: black;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav{
+  background-color: #eeeeee;
+}
+
+h1{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-decoration: underline;
+}
+
+p{
+  text-align: center;
+}
+
+ul{
+  list-style:none;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+h4{
+  margin-left: 40px;
+  text-transform: capitalize;
+}
+
+.card-container{
+  margin-bottom: 30px;
+  max-height: 100%;
+  min-height: 100%
+}
+
+.card-body{
+  min-width: 253px;
+  min-height: 124px;
+  max-width: 253px;
+  min-width: 124px;
+}
+
+.photo-body{
+  margin-bottom: 35px
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
