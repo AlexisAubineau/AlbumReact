@@ -24,7 +24,7 @@ export default class AlbumList extends Component{
         });
     }
 
-    async componentDidUpdate(prevProps, prevState) {
+    async componentDidUpdate(prevState) {
         const page = queryString.parse(this.props.location.pathname.split('?')[1]).page || 1;
         if (page !== prevState.page) {
             this.setState({
